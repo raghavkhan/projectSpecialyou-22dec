@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>my cart</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="myCart-container">
+      <!-- first section(header part) -->
+      <div class="myCart-header">
+        <div class="myCart-header-text">My Cart (1)</div>
+        <div class="myCart-header-close-button-container">
+          <div class="myCart-header-close-button">+</div>
+        </div>
+      </div>
+
+      <!-- second section(my cart items already added) -->
+      <div class="myCart-items">
+        <!-- first part -->
+        <div class="myCart-items-photo"></div>
+        <!-- second part -->
+        <div class="myCart-items-description">
+          <!-- second part--first part -->
+          <div class="myCart-items-description-textRate-container">
+            <div class="myCart-items-description-text">
+              Happy birthday decorations for girls and boys
+            </div>
+            <div class="myCart-items-description-rate">₹399</div>
+          </div>
+          <!-- second part--second part -->
+          <div class="myCart-items-description-incrementDecrement">
+            <div class="myCart-items-description-decrement-container">
+              <div class="myCart-items-description-decrement">-</div>
+            </div>
+            <div class="myCart-items-description-quantity-container">
+              <div class="myCart-items-description-quantity">1</div>
+            </div>
+            <div class="myCart-items-description-increment-container">
+              <div class="myCart-items-description-increment">+</div>
+            </div>
+          </div>
+        </div>
+        <!-- third part -->
+        <div class="myCart-items-close-button-container">
+          <div class="myCart-items-close-button">+</div>
+        </div>
+      </div>
+
+      <!-- third section(applying coupon code) -->
+      <div class="myCart-couponCode">
+        <div class="myCart-couponCode-upper">Apply Coupon Code</div>
+        <div class="myCart-couponCode-middle">
+          <input type="text" placeholder="Enter coupon code" />
+          <button>Apply</button>
+        </div>
+        <div class="myCart-couponCode-lower">Coupon applied!</div>
+      </div>
+
+      <!-- fourth section(product-addons) -->
+      <div class="myCart-productAddons">
+        <!-- first part -->
+        <h1>Product Add-ons</h1>
+        <!-- second part -->
+        <div class="myCart-productAddons-remaining">
+          <!-- second part--first part -->
+          <div
+            class="myCart-productAddons-product myCart-productAddons-product1"
+          >
+            <!-- second part--first part--first part -->
+            <div class="myCart-productAddons-imageText-container">
+              <div
+                class="myCart-productAddons-image myCart-productAddons-image1"
+              ></div>
+              <div class="myCart-productAddons-text">Balloon Pump</div>
+              <div class="myCart-productAddons-rate">rs 499</div>
+            </div>
+            <!-- second part--first part--second part -->
+            <div class="myCart-productAddons-button-container">
+              <button>Add</button>
+            </div>
+          </div>
+          <div
+            class="myCart-productAddons-product myCart-productAddons-product2"
+          >
+            <!-- second part--first part--first part -->
+            <div class="myCart-productAddons-imageText-container">
+              <div
+                class="myCart-productAddons-image myCart-productAddons-image2"
+              ></div>
+              <div class="myCart-productAddons-text">Balloon Pump</div>
+              <div class="myCart-productAddons-rate">rs 499</div>
+            </div>
+            <!-- second part--first part--second part -->
+            <div class="myCart-productAddons-button-container">
+              <button>Add</button>
+            </div>
+          </div>
+          <div
+            class="myCart-productAddons-product myCart-productAddons-product3"
+          >
+            <!-- second part--first part--first part -->
+            <div class="myCart-productAddons-imageText-container">
+              <div
+                class="myCart-productAddons-image myCart-productAddons-image3"
+              ></div>
+              <div class="myCart-productAddons-text">Balloon Pump</div>
+              <div class="myCart-productAddons-rate">rs 499</div>
+            </div>
+            <!-- second part--first part--second part -->
+            <div class="myCart-productAddons-button-container">
+              <button>Add</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- fifth section(blank space) -->
+      <div class="myCart-blankSpace">blank space</div>
+
+      <!-- sixth section(coupon applied) -->
+
+      <div class="myCart-couponApplied">
+        <div class="myCart-couponApplied-svg">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="myCart-couponApplied-checkBadge"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z"
+            />
+          </svg>
+        </div>
+        <div class="myCart-couponApplied-text">
+          Coupon applied, You saved ₹200
+        </div>
+      </div>
+
+      <!--  seventh section(proceed to checkout)  -->
+      <div class="proceedCheckout">
+        <div class="proceedCheckout-left">
+          <div>Total Value</div>
+          <div class="proceedCheckout-bold">rs99 <span>rs399</span></div>
+        </div>
+        <button class="proceedCheckout-right">Proceed to Checkout</button>
+      </div>
+
+      <!--  -->
+    </div>
+  </body>
+</html>
